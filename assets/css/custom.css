@@ -208,3 +208,106 @@
 .tab-active .drop-menu {
     margin-bottom: 25px;
 }
+
+
+/* profile-main */
+
+.profile-main .profile-banenr-top {
+    background: #fff;
+    padding-top: 51px;
+    padding-bottom: 52px;
+}
+
+.profile-main .profile-banenr-top h1 {
+    font-family: 'Raleway-semibold';
+    font-size: 40px;
+    text-align: center;
+}
+
+.profile-main .profile-wrap {
+    background: #EFEFEF;
+    padding-top: 83px;
+    padding-bottom: 89px;
+}
+
+.profile-main .profile-wrap .profile-content {
+    width: 1364px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #FBC7B2;
+    padding: 57px 58px 72px 55px;
+}
+
+.line-bottom {
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FBC7B2;
+    margin-bottom: 40px;
+}
+
+.group-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#dropdown {
+    appearance: none;
+    outline: none;
+    position: relative;
+}
+
+#dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("../images/down.svg");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
+}
+
+.group-all {
+    margin-bottom: 30px;
+}
+
+.group-all .group-label {
+    margin-bottom: 20px;
+    font-family: 'Raleway-semibold';
+    font-size: 20px;
+    display: block;
+}
+
+.group-all .group-input {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #FBC7B2;
+    padding: 23px 21px 24px 21px;
+    font-size: 16px;
+}
+
+.profile-content-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.profile-content-top .profile-ct-left {
+    width: 765px;
+}
+
+.profile-content-top .profile-ct-left h3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.profile-content-top .profile-ct-right {
+    width: 483px;
+}
+
+
+/* profile-main */
